@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CloseCell.h
 //  ScrollCloseDemo
 //
 //  Created by 吴玉铁 on 2016/10/6.
@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CloseCell : UITableViewCell
 
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+
+@property(nonatomic,assign)BOOL isCloseing;
+
+
+
+
 
 @end
-

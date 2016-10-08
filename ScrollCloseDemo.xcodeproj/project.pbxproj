@@ -15,6 +15,8 @@
 		810960991DA6207F00E3DE7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810960971DA6207F00E3DE7B /* LaunchScreen.storyboard */; };
 		810960A41DA6207F00E3DE7B /* ScrollCloseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 810960A31DA6207F00E3DE7B /* ScrollCloseDemoTests.m */; };
 		810960AF1DA6207F00E3DE7B /* ScrollCloseDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 810960AE1DA6207F00E3DE7B /* ScrollCloseDemoUITests.m */; };
+		810960BF1DA625DA00E3DE7B /* CloseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 810960BD1DA625DA00E3DE7B /* CloseCell.m */; };
+		810960C01DA625DA00E3DE7B /* CloseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 810960BE1DA625DA00E3DE7B /* CloseCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		810960AA1DA6207F00E3DE7B /* ScrollCloseDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollCloseDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		810960AE1DA6207F00E3DE7B /* ScrollCloseDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollCloseDemoUITests.m; sourceTree = "<group>"; };
 		810960B01DA6207F00E3DE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810960BC1DA625DA00E3DE7B /* CloseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseCell.h; sourceTree = "<group>"; };
+		810960BD1DA625DA00E3DE7B /* CloseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseCell.m; sourceTree = "<group>"; };
+		810960BE1DA625DA00E3DE7B /* CloseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CloseCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,9 @@
 				8109608F1DA6207F00E3DE7B /* ViewController.h */,
 				810960901DA6207F00E3DE7B /* ViewController.m */,
 				810960921DA6207F00E3DE7B /* Main.storyboard */,
+				810960BC1DA625DA00E3DE7B /* CloseCell.h */,
+				810960BD1DA625DA00E3DE7B /* CloseCell.m */,
+				810960BE1DA625DA00E3DE7B /* CloseCell.xib */,
 				810960951DA6207F00E3DE7B /* Assets.xcassets */,
 				810960971DA6207F00E3DE7B /* LaunchScreen.storyboard */,
 				8109609A1DA6207F00E3DE7B /* Info.plist */,
@@ -207,6 +215,7 @@
 				TargetAttributes = {
 					810960851DA6207F00E3DE7B = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J4G5MLSX24;
 						ProvisioningStyle = Automatic;
 					};
 					8109609E1DA6207F00E3DE7B = {
@@ -246,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810960C01DA625DA00E3DE7B /* CloseCell.xib in Resources */,
 				810960991DA6207F00E3DE7B /* LaunchScreen.storyboard in Resources */,
 				810960961DA6207F00E3DE7B /* Assets.xcassets in Resources */,
 				810960941DA6207F00E3DE7B /* Main.storyboard in Resources */,
@@ -273,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810960BF1DA625DA00E3DE7B /* CloseCell.m in Sources */,
 				810960911DA6207F00E3DE7B /* ViewController.m in Sources */,
 				8109608E1DA6207F00E3DE7B /* AppDelegate.m in Sources */,
 				8109608B1DA6207F00E3DE7B /* main.m in Sources */,
@@ -424,7 +435,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J4G5MLSX24;
 				INFOPLIST_FILE = ScrollCloseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CoderTgg.ScrollCloseDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +448,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J4G5MLSX24;
 				INFOPLIST_FILE = ScrollCloseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CoderTgg.ScrollCloseDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +522,7 @@
 				810960B51DA6207F00E3DE7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		810960B61DA6207F00E3DE7B /* Build configuration list for PBXNativeTarget "ScrollCloseDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +531,7 @@
 				810960B81DA6207F00E3DE7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		810960B91DA6207F00E3DE7B /* Build configuration list for PBXNativeTarget "ScrollCloseDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +540,7 @@
 				810960BB1DA6207F00E3DE7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
